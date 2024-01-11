@@ -1,0 +1,50 @@
+/* грузим шрифты */
+@font-face {
+	font-family: "Matrix_vs_Miltown";
+	src: url("../fonts/matrix-vs-miltown/matrix-vs-miltown.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/matrix-vs-miltown/matrix-vs-miltown.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/matrix-vs-miltown/matrix-vs-miltown.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/matrix-vs-miltown/matrix-vs-miltown.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/matrix-vs-miltown/matrix-vs-miltown.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/matrix-vs-miltown/matrix-vs-miltown.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/matrix-vs-miltown/matrix-vs-miltown.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+    @font-face {
+	font-family: freemono;
+	src: url("../fonts/freemono/FreeMono.ttf");	
+	font-weight: normal;
+	font-style: normal;
+}
+/* грузим шрифты */
+
+
+/* стили для контента */
+    .body {
+        background:black; 
+        color: #10d328;
+        font-family: freemono;
+        margin: 50px;
+    }
+
+    .body a {      
+        color: #10d328;
+     }
+
+    .h1 {
+       font-family: Matrix_vs_Miltown;
+    }
+
+    section {
+        margin: 50px 0;
+    }
+
+    aside {
+        float: right;
+    }
+
+    ul li{
+        display: inline;
+      }
+/* /стили для контента */
