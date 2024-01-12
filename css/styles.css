@@ -21,18 +21,18 @@
 
 
 /* стили для контента */
-    .body {
+    body {
         background:black; 
         color: #10d328;
         font-family: freemono;
         margin: 50px;
     }
 
-    .body a {      
+    body a {      
         color: #10d328;
      }
 
-    .h1 {
+    h1 {
        font-family: Matrix_vs_Miltown;
     }
 
